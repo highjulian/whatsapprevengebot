@@ -1,0 +1,7 @@
+import pyautogui, time
+
+f = open("beescript.txt",'r')
+
+for word in f:
+
+	pyautogui.typewrite(word)	pyautogui.press("enter")
